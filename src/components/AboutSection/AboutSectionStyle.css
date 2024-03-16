@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    25% { background-position: 25% 75%;}
+    50% { background-position: 100% 50%; }
+    75% { background-position: 75% 25%;}
+    100% { background-position: 0% 50%; }
+  }
+  
+  .animated-gradient-text {
+    background: linear-gradient(to right, #1251F4 ,#18abeb);
+    background-size: 300% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradient-animation 2s ease infinite;
+  }

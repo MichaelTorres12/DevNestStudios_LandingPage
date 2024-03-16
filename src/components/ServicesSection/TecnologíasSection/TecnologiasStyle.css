@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.herramientas-de-vanguardia-color{
+    color: #1557F4;
+}
+
+.technology-circle {
+    position: relative;
+    width: 300px; /* El diámetro del círculo grande */
+    height: 300px; /* El diámetro del círculo grande */
+    border-radius: 50%; /* Hace el círculo redondo */
+    background-color: #D6BCFA; /* Color de fondo del círculo grande */
+  }
+  
+  .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px; /* Tamaño de las "chibolitas" */
+    height: 50px; /* Tamaño de las "chibolitas" */
+    margin-top: -25px; /* Ajuste para centrar las "chibolitas" */
+    margin-left: -25px; /* Ajuste para centrar las "chibolitas" */
+    border-radius: 50%; /* Hace las "chibolitas" redondas */
+    background-color: #FFF; /* Color de fondo de las "chibolitas" */
+    /* Aquí puedes agregar sombra, borde o cualquier otro estilo que desees */
+  }
+  
+  .center-circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px; /* Tamaño del círculo central */
+    height: 100px; /* Tamaño del círculo central */
+    margin-top: -50px; /* Ajuste para centrar el círculo central */
+    margin-left: -50px; /* Ajuste para centrar el círculo central */
+    border-radius: 50%; /* Hace el círculo central redondo */
+    background-color: #9B5DE5; /* Color de fondo del círculo central */
+    z-index: 10; /* Asegura que el círculo central esté sobre los íconos */
+  }
+  

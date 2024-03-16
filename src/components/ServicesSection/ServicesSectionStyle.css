@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+    background-image: linear-gradient(to right, #1251F4, #71a7ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent; /* Solo es necesario si quieres soporte para Firefox */
+}
+
+.gradient-cards {
+    background-image: linear-gradient(to right, rgba(151, 212, 255, 0.2), rgba(232, 232, 232, 0.6));
+  }
+
+.nuestros-servicios-color{
+    color: #0B5B9A;
+}
