@@ -10,7 +10,11 @@ export default {
         'tiny-lineHeight': '1.7',
         'extra-loose': '1',
         'very-tiny-interline': '1.3',
-      }
+      },
+      screens: {
+        'tablet': '481px',
+        'tablet-max': {'max': '970px'},
+      },
     },
   },
   plugins: [],

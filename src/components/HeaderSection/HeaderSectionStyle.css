@@ -20,21 +20,15 @@
   
   /* Estilos para tabletas */
   @media only screen and (min-width: 481px) and (max-width: 768px) {
-    .generalWrapperResponsive {
-
-    }
+    
   }
   
   /* Estilos para portátiles */
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    .generalWrapperResponsive {
-
-    }
+    
   }
   
   /* Estilos para dispositivos grandes */
   @media only screen and (min-width: 1025px) and (max-width: 1200px) {
-    .generalWrapperResponsive {
-
-    }
+    
   }
