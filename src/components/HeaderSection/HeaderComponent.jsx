@@ -1,4 +1,5 @@
 //Header Component
+import './HeaderSectionStyle.css';
 import  { useState } from 'react';
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
@@ -15,15 +16,14 @@ export const HeaderComponent = () => {
   let [open, setOpen] =useState(false);
   
   return (
-    <div className='shadow-md w-full  fixed z-50 top-0 left-0 bg-[#EDEDED] '>
-       <div className='md:flex items-center justify-between py-4 md:px-10 px-7 container mx-auto flex  max-w-8xl mt-2 mb-2'>
+    <div className='generalWrapperResponsive shadow-md w-full  fixed z-50 top-0 left-0 bg-[#EDEDED] '>
+       <div className='md:flex items-center justify-between md:px-10 px-7 container mx-auto flex  max-w-8xl mt-2 mb-2'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex items-center gap-2'>
-            <img className='w-20 h-20' src="/devNestStudiosLogo.svg" alt="DevNest Studios Logo" />
-            <span className='text-blue-700 text-3xl'></span>
+            <img className=' logoImg' src="/devNestStudiosLogo.svg" alt="DevNest Studios Logo" />
         </div>
         {/* Menu icon */}
-        <div onClick={()=>setOpen(!open)} className='absolute right-8 top-14 cursor-pointer md:hidden w-7 h-7 items-center justify-center'>
+        <div onClick={()=>setOpen(!open)} className='absolute right-8 cursor-pointer md:hidden w-7 h-7 items-center justify-center'>
             {
                 open ? <XMarkIcon/> : <Bars3BottomRightIcon />
             }
