@@ -3,8 +3,7 @@
 @tailwind utilities;
 
 .heroServicesImg{
-    width: 700px;
-    margin-left: 30px;
+    width: auto;
 }
 
 @keyframes gradient-animation {
@@ -24,3 +23,25 @@
     animation: gradient-animation 2s ease infinite;
   }
   
+  /* Estilos para móviles */
+@media only screen and (min-width: 100px) and (max-width: 768px) {
+  .generalWrapper{
+    background-color: red;
+  }
+}
+
+/* Estilos para tabletas */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+}
+
+/* Estilos para portátiles */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  
+}
+
+/* Estilos para dispositivos grandes */
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  
+}
+

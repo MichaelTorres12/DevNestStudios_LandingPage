@@ -12,8 +12,7 @@ export default {
         'very-tiny-interline': '1.3',
       },
       screens: {
-        'tablet': '481px',
-        'tablet-max': {'max': '970px'},
+        'xsm': '100px',
       },
     },
   },
