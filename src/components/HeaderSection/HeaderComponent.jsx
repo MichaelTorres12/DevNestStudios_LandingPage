@@ -17,7 +17,7 @@ export const HeaderComponent = () => {
   
   return (
     <div className='generalWrapperResponsive w-full  fixed z-50 top-0 left-0 bg-[#1e3a8a] '>
-       <div className='xl:flex items-center justify-between px-5 container mx-auto flex  max-w-8xl mt-1 mb-1'>
+       <div className='xl:flex items-center justify-between px-5 container mx-auto flex  max-w-8xl mt-1 mb-1 max-w-[1440px]'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex items-center gap-2'>
             <img className='logoImg sm:w-20 sm:h-20' src="/devNestStudiosLogo.svg" alt="DevNest Studios Logo" />

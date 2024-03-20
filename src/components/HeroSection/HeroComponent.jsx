@@ -4,20 +4,21 @@ import { ContactAndProjectsButtons } from '../ButtonsReusables/ContactAndProject
 export const HeroComponent = () => {
   return (
     <div className="generalWrapper relative bg-[#EDEDED] pb-11 ">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center gap-16 max-w-[1440px] pt-12 ">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center gap-16 max-w-[1440px] xl:pt-12 xsm:pt-16 ">
         {/* Contenido textual */}
         <div className="flex flex-1 flex-col text items-center lg:items-start">
-          <div className='pt-4 flex flex-col  justify-center items-center'>
-              <div className='flex items-center'>
-                <h2 className='xl:text-[105px] lg:text-[95px] md:text-[75px] sm:text-[60px] xsm:text-[50px]  md:text-4  text-center lg:text-left mb-6 font-bold'>Desarrollo</h2>.
+          <div className='pt-4 flex flex-col xsm:justify-center xsm:items-center lg:items-baseline'>
+              <div className='flex items-center justify-center lg:pt-5'>
+                <h2 className='animated-gradient-text-HeroSection xl:text-[105px] lg:text-[97px] md:text-[90px] sm:text-[80px] xsm:text-[55px]  md:text-4 text-center lg:text-left mb font-bold '>Desarrollo</h2>.
                 <picture>
-                  <img className='ml-10 xl:w-24  lg:  md:  sm:  xsm:w-10 ' src="/hero/earth.svg" alt="mundiMap" />
+                  <img className=' 
+                  xl:w-28 lg:w-28 md:w-28 md:ml-10 sm:w-20 xsm:w-12 xsm:ml-1' src="/hero/earth.svg" alt="mundiMap" />
                 </picture>
               </div>
-              <h2 className="xl:text-[105px] lg:text-[95px] md:text-[75px] sm:text-[60px] xsm:text-[50px] leading-extra-loose md:text-4 md:leading-extra-loose text-center lg:text-center mb-6 font-bold animated-gradient-text ">
+              <h2 className="animated-gradient-text-HeroSection xl:text-[105px] lg:text-[97px] md:text-[90px] sm:text-[80px] xsm:text-[55px] leading-extra-loose md:text-4 md:leading-extra-loose xsm:text-center lg:text-left lg:mb-6 xsm:mb-3 font-bold  ">
               de Software Personalizado
               </h2>
-            <p className="xl:text-2xl text-center lg:text-left mb-10 md:leading-tiny-lineHeight ">
+            <p className="xl:text-2xl sm:text-2xl xsm:text-base xsm:p-2 lg:p-0 text-center lg:text-left lg:mb-10 xsm:mb-6 md:leading-tiny-lineHeight ">
               ¿Estás buscando Software a la medida de alta calidad?
               DevNest Studios es tu solución ideal, nos especializamos en
               desarrollo de software personalizado, nuestros servicios van
@@ -32,7 +33,7 @@ export const HeroComponent = () => {
         </div>
         
         {/* Imágenes */}
-        <div className="pt-10 w-full">
+        <div className="lg:pt-10 xsm:pt-0 w-full">
           <img 
             className="heroServicesImg"
             src="/hero/heroImage.svg" 

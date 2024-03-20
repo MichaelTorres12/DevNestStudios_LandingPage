@@ -14,8 +14,8 @@
     100% { background-position: 0% 50%; }
   }
   
-  .animated-gradient-text {
-    background: linear-gradient(to right, #3b82f6 ,#ba2481);
+  .animated-gradient-text-HeroSection {
+    background: linear-gradient(to right, #3b82f6 ,#99248c);
     background-size: 300% 200%;
     -webkit-background-clip: text;
     background-clip: text;

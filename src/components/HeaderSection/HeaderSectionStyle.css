@@ -2,16 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-{
-
-}
-
 /* Estilos para móviles */
 @media only screen and (min-width: 100px) and (max-width: 768px) {
-    .generalWrapperResponsive {
-
-    }
-
     .logoImg{
         width: 70px;
         height: 70px;

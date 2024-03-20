@@ -47,7 +47,7 @@ export const ServiceComponent = () => {
 
   return (
     <div className="bg-[#FAFAFA] pb-10">
-      <div className="container mx-auto py-10 px-6 flex gap-12">
+      <div className="container mx-auto py-10 xsm:px-1 lg:flex xsm:flex-none gap-12  max-w-[1460px]">
         <div className="text-left align-center justify-center flex flex-col">
           <div className='flex items-center mb-10'>
             <picture>
