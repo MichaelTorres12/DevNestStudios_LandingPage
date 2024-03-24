@@ -3,8 +3,8 @@ import { ContactAndProjectsButtons } from '../../ButtonsReusables/ContactAndProj
 
 export const TecnologiasComponent = () => {
     return (
-        <section className="py-20 bg-[#FAFAFA]">
-          <div className="container mx-auto px-4">
+        <section className="py-20 bg-[#FAFAFA] ">
+          <div className="container mx-auto px-4 max-w-[1440px]">
             <div className=" justify-between items-center">
               <div className="">
                 <div className='flex flex-col text-center justify-center '>

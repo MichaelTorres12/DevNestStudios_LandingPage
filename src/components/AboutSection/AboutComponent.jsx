@@ -3,8 +3,8 @@ import { ContactAndProjectsButtons } from '../ButtonsReusables/ContactAndProject
 
 export const AboutComponent = () => {
   return (
-    <div className="bg-[#FAFAFA] pt-10 pb-20">
-      <div className="container mx-auto px-6">
+    <div className="bg-[#FAFAFA] pt-10 pb-20 ">
+      <div className="container mx-auto px-6 max-w-[1440px]">
         <div className="items-center">
           
           {/* AboutUs Banner */}
