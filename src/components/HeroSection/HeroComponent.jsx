@@ -18,7 +18,7 @@ export const HeroComponent = () => {
               <h2 className="animated-gradient-text-HeroSection xl:text-[105px] lg:text-[97px] md:text-[90px] sm:text-[80px] xsm:text-[55px] leading-extra-loose md:text-4 md:leading-extra-loose xsm:text-center lg:text-left lg:mb-6 xsm:mb-3 font-bold  ">
               de Software Personalizado
               </h2>
-            <p className="xl:text-2xl sm:text-2xl xsm:text-base xsm:p-2 lg:p-0 text-center lg:text-left lg:mb-10 xsm:mb-6 md:leading-tiny-lineHeight ">
+            <p className="xl:text-2xl sm:text-2xl xsm:text-xl xsm:p-2 lg:p-0 text-center lg:text-left lg:mb-10 xsm:mb-6 md:leading-tiny-lineHeight xsm:px-3 lg:px-0 ">
               ¿Estás buscando Software a la medida de alta calidad?
               DevNest Studios es tu solución ideal, nos especializamos en
               desarrollo de software personalizado, nuestros servicios van

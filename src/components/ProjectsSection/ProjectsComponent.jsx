@@ -116,7 +116,7 @@ export const ProjectsComponent = () => {
   return (
     <>
       {/* SVG Wave en la parte superior */}
-      <div className="bg-[#FAFAFA] top-0 left-0 w-full overflow-hidden h-[100px]">
+      <div className="bg-[#FAFAFA] top-0 left-0 w-full overflow-hidden h-[100px] lg:block xsm:hidden">
         <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
           <defs>
             <path id="wavepath" d="M 0 2000 0 500 Q 62.5 315 125 500 t 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0  v1000 z" />
@@ -133,7 +133,7 @@ export const ProjectsComponent = () => {
 
       {/* Contenido principal */}
       <div className="bg-[#EDEDED] pt-12 pb-20 relative">
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-6 max-w-[1440px]">
       
         
         {/* Info + ProjectCards Wrapper */}

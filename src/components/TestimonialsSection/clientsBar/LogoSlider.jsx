@@ -12,7 +12,7 @@ const logos = [
 export const LogoSlider = () => {
     return (
         <div className="logos">
-          <div className="logos-slide hover:cursor-pointer">
+          <div className="logos-slide hover:cursor-pointer ">
             {logos.map((logo, index) => (
               <img key={index} src={logo} alt="Company Logo" />
             ))}

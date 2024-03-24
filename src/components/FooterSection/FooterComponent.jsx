@@ -3,7 +3,7 @@ import './FooterSectionStyle.css';
 export const FooterComponent = () => {
   return (
     <footer className="bg-blue-900 text-white py-10">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 max-w-[1440px]">
         {/* Logo y navegación */}
         <div>
           <img src="/devNestStudiosLogo.svg" alt="DevNest" className="mb-4" />

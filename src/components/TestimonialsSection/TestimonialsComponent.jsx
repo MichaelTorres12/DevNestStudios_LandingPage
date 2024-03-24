@@ -110,7 +110,7 @@ export const TestimonialsComponent = () => {
 
   return (
     <div className="bg-[#FAFAFA] py-16">
-      <div className="container mx-auto px-6">
+      <div className="container mx-auto px-6 max-w-[1540px]">
         <div className='flex flex-col text-center'>
           <h2 className="text-center font-bold text-[70px] mb-0 animated-gradient-text">
           Testimonios de nuestros clientes

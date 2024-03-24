@@ -47,27 +47,32 @@ export const ServiceComponent = () => {
 
   return (
     <div className="bg-[#FAFAFA] pb-10">
-      <div className="container mx-auto py-10 xsm:px-1 lg:flex xsm:flex-none gap-12  max-w-[1460px]">
-        <div className="text-left align-center justify-center flex flex-col">
-          <div className='flex items-center mb-10'>
-            <picture>
+      <div className="container mx-auto py-10 lg:flex xsm:flex-none gap-12  max-w-[1460px]">
+        <div className="text-left align-center justify-center flex flex-col xsm:justify-center xsm:items-center lg:items-baseline">
+          <div className='flex items-center md:mb-10 xsm:mb-5 xsm:px-3 lg:px-0 '>
+            <picture className='xsm:hidden md:block'>
               <img src="/SectionsIndicatorIcon.svg" alt="Sections Indicator" />
             </picture>
-            <p className='ml-2 text-2xl font-bold nuestros-servicios-color'>Nuestros servicios</p>
+            <p className='ml-2 md:text-2xl xsm:text-xl font-bold nuestros-servicios-color'>Nuestros servicios</p>
           </div>
-          <h2 className="text-5xl font-bold mb-6 w-[700px] text-left text-[75px]">
-            <strong className='text-[80px] gradient-text'>Soluciones innovadoras,</strong> para cada desafío digital
+          <h2 className="font-bold mb-6 w-full lg:mr-40 lg:text-left xsm:text-center xsm:px-3 lg:px-0
+          xsm:text-5xl lg:-6xl md:text-6xl
+          ">
+            <strong className='md:text-[75px] xsm:text-[50px] gradient-text'>Soluciones innovadoras,</strong> para cada desafío digital
           </h2>
-          <p className="text-xl text-left lg:text-left mb-20 md:leading-tiny-lineHeight">
+          <p className="text-xl lg:text-left xsm:text-center lg:mb-20 xsm:mb-7 md:leading-tiny-lineHeight xsm:px-3 lg:px-0">
             En DevNet Studios, transformamos ideas en realidades digitales. Con un enfoque personalizado
             y tecnología de punta, impulsamos tu éxito en el dinámico mundo digital.
           </p>
-          <ContactAndProjectsButtons/>
+
+            <div className="flex justify-left flex-wrap gap-6">
+              <ContactAndProjectsButtons/>
+            </div>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 xsm:px-3 lg:px-0 xsm:mt-8 lg:mt-0">
           {services.map((service) => (
-            <div key={service.id} className=".gradient-cards p-6 rounded-2xl shadow-md gradient-cards hover:drop-shadow-2xl hover:cursor-default">
+            <div key={service.id} className=".gradient-cards md:p-6 xsm:p-4 rounded-2xl shadow-md gradient-cards hover:drop-shadow-2xl hover:cursor-default">
               <div className="flex items-center justify-center h-16 w-16 mb-4 bg-white rounded-full drop-shadow-lg">
                 <img src={service.icon} alt={service.title} className="h-6 w-6" />
               </div>

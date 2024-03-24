@@ -30,7 +30,7 @@ const checkboxServices = [
 export const ContactComponent = () => {
   return (
     <div className="bg-[#FAFAFA] py-10 px-5 md:px-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-center max-w-[1440px]">
         {/* Texto de Contacto */}
         <div className='"'>
           <h2 className="text-[70px] font-extralight text-[#1658F4] mb-3">Contáctanos</h2>
