@@ -117,14 +117,14 @@ export const ProjectsComponent = () => {
   return (
     <>
       {/* SVG Wave en la parte superior */}
-      <div className="bg-[#FAFAFA] top-0 left-0 w-full overflow-hidden h-[100px] lg:block xsm:hidden">
+      <div className="bg-[#FAFAFA] top-0 left-0 w-full overflow-hidden h-[100px] #1251F4, #71a7ff">
         <svg width="100%" height="100%" viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
           <defs>
             <path id="wavepath" d="M 0 2000 0 500 Q 62.5 315 125 500 t 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0 125 0  v1000 z" />
           </defs>
           <g>
             <use href="#wavepath" y="125" fill="#EDEDED">
-              <animateMotion dur="5s" repeatCount="indefinite">
+              <animateMotion dur="3s" repeatCount="indefinite">
                 <mpath href="#motionpath" />
               </animateMotion>
             </use>
@@ -142,7 +142,7 @@ export const ProjectsComponent = () => {
     
           {/* Texto de Nuestros Proyectos */}
           <div className="w-full lg:md:w-1/2 mt-8 md:mt-0 md:pl-8 flex flex-col justify-center xsm:text-center md:text-left">
-            <h2 className="text-5xl font-extrabold lg:text-[80px] md:text-[60px] xsm:text-[45px] animated-gradient-text lg:mb-8 xsm:mb-6 ">
+            <h2 className="animated-gradient-text-project text-5xl font-extrabold lg:text-[80px] md:text-[60px] xsm:text-[45px] lg:mb-8 xsm:mb-6 ">
               Mira <br></br> Nuestros <br></br> Proyectos
             </h2>
             <p className="text-xl xsm:text-center md:text-left lg:mb-16 md:mb-4 xsm:mb-5 md:leading-tiny-lineHeight lg:w-[550px] xsm:w-full">

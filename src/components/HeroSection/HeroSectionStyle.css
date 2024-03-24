@@ -15,12 +15,12 @@
   }
   
   .animated-gradient-text-HeroSection {
-    background: linear-gradient(to right, #3b82f6 ,#99248c);
+    background: linear-gradient(to right, #1251F4, #71a7ff);
     background-size: 300% 200%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
-    animation: gradient-animation 2s ease infinite;
+    animation: gradient-animation 3s ease infinite;
   }
   
   /* Estilos para móviles */

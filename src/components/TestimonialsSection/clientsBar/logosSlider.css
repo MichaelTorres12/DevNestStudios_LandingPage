@@ -46,3 +46,24 @@
     height: 50px;
     margin: 0 40px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .logos-slide img {
+      height: 30px;
+      margin: 0 40px;
+    }
+
+    .logos {
+      overflow: hidden;
+      padding: 20px 0;
+      background: rgb(225, 225, 225);
+      white-space: nowrap;
+      position: relative;
+    }
+
+    .logos-slide {
+      display: flex;
+      display: inline-flex;
+      animation: 5s slide infinite linear;
+    }
+  }

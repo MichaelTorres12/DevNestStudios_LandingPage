@@ -17,7 +17,7 @@ export const LogoSlider = () => {
               <img key={index} src={logo} alt="Company Logo" />
             ))}
           </div>
-          <div className="logos-slide hover:cursor-pointer">
+          <div className="logos-slide hover:cursor-pointer xsm:hidden">
             {logos.map((logo, index) => (
               <img key={index} src={logo} alt="Company Logo" />
             ))}

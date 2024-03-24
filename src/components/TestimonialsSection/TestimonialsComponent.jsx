@@ -62,7 +62,7 @@ const testimonials = [
 
 const TestimonialCard = ({ testimonial }) => {
   return (
-    <div className="bg-white p-6 rounded-3xl shadow-md m-4 hover:shadow-lg w-[350px] hover:cursor-grab">
+    <div className="bg-white p-6 rounded-3xl shadow-md m-4 hover:shadow-lg md:w-[350px] hover:cursor-grab">
       <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mx-auto " />
       <div className="text-center mt-4">
         <p className="font-extrabold text-2xl">{testimonial.name}</p>
@@ -94,15 +94,24 @@ export const TestimonialsComponent = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 980,
         settings: {
           slidesToShow: 2,
+          arrows: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1560,
+        settings: {
+          slidesToShow: 3,
+          arrows: true,
+        },
+      },
+      {
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
+          arrows: true,
         },
       },
     ],
@@ -110,24 +119,23 @@ export const TestimonialsComponent = () => {
 
   return (
     <div className="bg-[#FAFAFA] py-16">
-      <div className="container mx-auto px-6 max-w-[1540px]">
+      <div className="container mx-auto  max-w-[1540px] ">
+        <div className='px-6'>
         <div className='flex flex-col text-center'>
-          <h2 className="text-center font-bold text-[70px] mb-0 animated-gradient-text">
+          <h2 className="text-5xl font-extrabold lg:text-[80px] md:text-[60px] xsm:text-[45px] lg:mb-0 xsm:mb-4 gradient-text">
           Testimonios de nuestros clientes
           </h2>
-          <p className='mb-10 text-gray-500 text-xl'>No solamente confíes en lo que te decimos, confía en lo que ellos te dicen.</p>
+          <p className='lg:mb-10 xsm:mb-4 text-gray-500 text-xl'>No solamente confíes en lo que te decimos, confía en lo que ellos te dicen.</p>
         </div>
-        <Slider {...settings}>
+        <Slider {...settings} >
           {testimonials.map((testimonial) => (
             <TestimonialCard key={testimonial.id} testimonial={testimonial} />
           ))}
         </Slider>
-
-        <div className='mt-16 mb-16 flex items-center justify-center'>
-          <ContactAndProjectsButtons/>
         </div>
-
-        
+          <div className='mt-16 mb-16 flex items-center justify-center px-none'>
+            <ContactAndProjectsButtons/>
+          </div>
       </div>
       <LogoSlider/>
     </div>

@@ -1,6 +1,6 @@
 //Header Component
 import './HeaderSectionStyle.css';
-import  { useState, useEffect } from 'react';
+import  { useState, } from 'react';
 import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 
 export const HeaderComponent = () => {
@@ -15,25 +15,8 @@ export const HeaderComponent = () => {
   let [open, setOpen] =useState(false);
   
 
-  const [hasScrolled, setHasScrolled] = useState(false);
-
-  const handleScroll = () => {
-    const offset = window.scrollY;
-    if (offset > 80) {
-      setHasScrolled(true);
-    } else {
-      setHasScrolled(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
   return (
-    <div className={`generalWrapperResponsive w-full fixed z-50 top-0 left-0 bg-[#1e3a8a] ${hasScrolled ? 'opacity-95' : 'opacity-100'} hover:opacity-100`}>
+    <div className={`generalWrapperResponsive w-full fixed z-50 top-0 left-0 bg-[#1e3a8a]`}>
        <div className='xl:flex items-center justify-between px-5 container mx-auto flex  max-w-8xl mt-1 mb-1 max-w-[1440px]'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex items-center gap-2'>

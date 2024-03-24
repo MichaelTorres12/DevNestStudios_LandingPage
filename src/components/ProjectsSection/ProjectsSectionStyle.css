@@ -16,9 +16,9 @@ html, body {
     100% { background-position: 0% 50%; }
   }
   
-  .animated-gradient-text {
-    background: linear-gradient(to right, #1658F4 ,#0D338E);
-    background-size: 300% 200%;
+  .animated-gradient-text-project {
+    background: linear-gradient(to right, #0e2e7b ,#2f86ff);
+    background-size: 200% 200%;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
