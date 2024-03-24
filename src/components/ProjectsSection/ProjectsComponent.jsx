@@ -56,7 +56,7 @@ const projects = [
 //El elemento que se muestra de los proyectos
 const ProjectCard = ({ project }) => {
   return (
-    <div className="group relative p-4 bg-white rounded-lg shadow-lg w-[430px] h-[500px] hover:cursor-grab transition duration-300 ease-in-out">
+    <div className="group relative p-4 bg-white rounded-lg shadow-lg lg:w-[430px] lg:h-[500px] xsm:w-full hover:cursor-grab transition duration-300 ease-in-out">
       <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
       <h3 className="text-3xl font-semibold mb-2">{project.title}</h3>
       <p className="text-gray-600 mb-4">{project.description}</p>
@@ -95,19 +95,20 @@ export const ProjectsComponent = () => {
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 980,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
-          dots: true
+          arrows: false,
         }
       },
       {
-        breakpoint: 600,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          arrows: true,
         }
       }
     ]
@@ -132,27 +133,29 @@ export const ProjectsComponent = () => {
       </div>
 
       {/* Contenido principal */}
-      <div className="bg-[#EDEDED] pt-12 pb-20 relative">
+      <div className="bg-[#EDEDED] md:pt-12 xsm:pt-1 pb-20 relative">
         <div className="container mx-auto px-6 max-w-[1440px]">
       
         
         {/* Info + ProjectCards Wrapper */}
-        <div className="flex flex-wrap md:flex-nowrap">
+        <div className="flex flex-wrap md:flex-nowrap justify-center ">
     
           {/* Texto de Nuestros Proyectos */}
-          <div className="w-full md:w-1/2 mt-8 md:mt-0 md:pl-8 flex flex-col justify-center">
-            <h2 className="text-5xl font-extrabold text-[80px] animated-gradient-text mb-8">
+          <div className="w-full lg:md:w-1/2 mt-8 md:mt-0 md:pl-8 flex flex-col justify-center xsm:text-center md:text-left">
+            <h2 className="text-5xl font-extrabold lg:text-[80px] md:text-[60px] xsm:text-[45px] animated-gradient-text lg:mb-8 xsm:mb-6 ">
               Mira <br></br> Nuestros <br></br> Proyectos
             </h2>
-            <p className="text-xl text-left lg:text-left mb-16 md:leading-tiny-lineHeight w-[550px]">
+            <p className="text-xl xsm:text-center md:text-left lg:mb-16 md:mb-4 xsm:mb-5 md:leading-tiny-lineHeight lg:w-[550px] xsm:w-full">
               Nuestros proyectos son la mejor prueba de nuestra capacidad para enfrentar y superar desafíos técnicos.
             </p>
-            <ContactAndProjectsButtons/>
+            <div className="flex flex-wrap gap-6 xsm:hidden md:block lg:mt-0 justify-left">
+              <ContactAndProjectsButtons/>
+            </div>
           </div>
 
           {/* Slider de Proyectos */}
-          <div className="w-full md:w-1/2 slider-container">
-            <Slider className='bg-[#E5ETEB] flex justify-center items-center w-[920px] p-3' {...settings}>
+          <div className="slider-container">
+            <Slider className='bg-[#E5ETEB] flex justify-center items-center lg:w-[920px] xsm:w-[320px]' {...settings}>
               {projects.map(project => (
                 <ProjectCard key={project.id} project={project} />
               ))}

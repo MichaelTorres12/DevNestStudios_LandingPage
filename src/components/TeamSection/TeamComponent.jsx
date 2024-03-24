@@ -36,7 +36,7 @@ const teamMembers = [
 
 export const TeamComponent = () => {
   return (
-    <div className="bg-[#FAFAFA] md:py-10 xsm:py-1">
+    <div className="bg-[#FAFAFA] md:py-10 xsm:pt-1 xsm:pb-10">
       <div className="container mx-auto px-6 text-center flex flex-col justify-center items-center pt-5 max-w-[1440px]">
       <div className='flex items-left justify-left text-left mb-5 '>
 
@@ -51,7 +51,7 @@ export const TeamComponent = () => {
               Conoce a cada uno de los miembros del equipo que se encargan de hacer tus necesidades realidad
             </p>
 
-        <div className="grid lg:grid-cols-5 xsm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 h-full">
+        <div className="grid lg:grid-cols-5 xsm:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-10 xsm:gap-3 h-full">
           {teamMembers.map(member => (
             <div key={member.id} className=" bg-gray-100 p-4 rounded-lg text-center hover:drop-shadow-2xl" style={{ backgroundImage: `url(${member.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <div className="mt-[100%] pt-2 pb-2 px-6 bg-gradient-to-b from-gray-100 to-gray-100 rounded-lg">
