@@ -14,6 +14,7 @@
     background: rgb(225, 225, 225);
     white-space: nowrap;
     position: relative;
+    width: full;
   }
   
   .logos:before,
@@ -39,7 +40,7 @@
   .logos-slide {
     display: flex;
     display: inline-flex;
-    animation: 25s slide infinite linear;
+    animation: 15s slide infinite linear;
   }
   
   .logos-slide img {
@@ -50,7 +51,7 @@
   @media only screen and (max-width: 600px) {
     .logos-slide img {
       height: 30px;
-      margin: 0 40px;
+      margin: 0 30px;
     }
 
     .logos {
@@ -64,6 +65,16 @@
     .logos-slide {
       display: flex;
       display: inline-flex;
-      animation: 5s slide infinite linear;
+      animation: 10s slide infinite linear;
     }
+
+    .logos:before,
+    .logos:after {
+      position: absolute;
+      top: 0;
+      width: 75px;
+      height: 100%;
+      content: "";
+      z-index: 2;
+  }
   }
