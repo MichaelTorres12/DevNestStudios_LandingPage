@@ -29,14 +29,14 @@ const checkboxServices = [
 
 export const ContactComponent = () => {
   return (
-    <div className="bg-[#FAFAFA] py-10 px-5 md:px-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-2 items-center max-w-[1440px]">
+    <div className="bg-[#FAFAFA] xsm:py-5 md:py-10 xsm:px-0 md:px-10">
+      <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-2 items-center max-w-[1440px]">
         {/* Texto de Contacto */}
-        <div className='"'>
-          <h2 className="text-[70px] font-extralight text-[#1658F4] mb-3">Contáctanos</h2>
-          <p className="text-[70px] font-semibold text-[#1658F4] mb-3">Solicita información.</p>
-          <p className="text-[40px] text-[#1658F4]">-01. Conviértete en un cliente</p>
-          <p className="text-[25px] font-light text-[#1658F4]">Cuéntanos de tu proyecto, escríbenos aquí y pronto te contactaremos</p>
+        <div className='xsm:px-5 xsm:text-center lg:text-left'>
+          <h2 className="md:text-[75px] xsm:text-[50px] font-extralight text-[#1658F4] mb-3">Contáctanos</h2>
+          <p className="md:text-[75px] xsm:text-[50px] font-semibold text-[#1658F4] mb-3">Solicita información.</p>
+          <p className="md:text-[40px] xsm:text-[35px] text-[#1658F4]">-01. Conviértete en un cliente</p>
+          <p className="md:text-[25px] xsm:text-[20px] font-light text-[#1658F4]">Cuéntanos de tu proyecto, escríbenos aquí y pronto te contactaremos</p>
         </div>
         
         {/* Formulario de Contacto */}
@@ -58,18 +58,18 @@ export const ContactComponent = () => {
             </div>
 
             {/*cellphone number*/}
-            <div className="mb-4 flex gap-5">
+            <div className="mb-4 flex md:flex-row xsm:flex-col gap-5">
               <div className=''>
                   <label className="block text-white text-[26px] font-bold mb-2" htmlFor="name">
                     Cod. Postal
                   </label>
-                  <input className="text-[24px] shadow appearance-none border rounded w-full py-2 px-3 text-black" id="name" type="text" placeholder="+503" />
+                  <input className="text-[24px] shadow appearance-none border rounded xsm:w-full md:w-[150px] py-2 px-3 text-black" id="name" type="text" placeholder="+503" />
                 </div>
                 <div>
                 <label className="block text-white text-[26px] font-bold mb-2" htmlFor="name">
                     Su número de teléfono:
                   </label>
-                  <input className="text-[24px] w-[500px] shadow appearance-none border rounded  py-2 px-3 text-black" id="name" type="text" placeholder="71403076" />
+                  <input className="text-[24px] shadow appearance-none border rounded w-full  py-2 px-3 text-black" id="name" type="text" placeholder="71403076" />
                 </div>
               </div>
 
@@ -78,10 +78,10 @@ export const ContactComponent = () => {
               <label className="block text-white text-[26px] font-bold mb-2">
                 Seleccione en qué podemos ayudarle:
               </label>
-              <div className="grid grid-cols-4 gap-3 w-auto">
+              <div className="grid xl:grid-cols-4 md:grid-cols-3 xsm:grid-cols-2 lg:gap-3 xsm:gap-1 w-auto">
                 {checkboxServices.map((item) => (
                   <div key={item.id}>
-                    <label className="text-[24px] inline-flex items-center bg-white p-2 rounded-lg hover:cursor-pointer ">
+                    <label className="xsm:text-[16px] md:text-[24px] inline-flex items-center bg-white p-2 rounded-lg hover:cursor-pointer ">
                       <input type="checkbox" className="form-checkbox w-6 h-6  " />
                       <span className="ml-2 ">{item.service}</span>
                     </label>

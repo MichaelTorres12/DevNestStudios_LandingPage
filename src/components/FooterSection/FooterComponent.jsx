@@ -3,16 +3,16 @@ import './FooterSectionStyle.css';
 export const FooterComponent = () => {
   return (
     <footer className="bg-blue-900 text-white py-10">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 max-w-[1440px]">
+      <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 xsm:grid-cols-1  xsm:gap-8 md:gap-6 max-w-[1440px]">
         {/* Logo y navegación */}
-        <div>
-          <img src="/devNestStudiosLogo.svg" alt="DevNest" className="mb-4" />
+        <div className='flex items-center justify-center'>
+          <img src="/devNestStudiosLogo.svg" alt="DevNest" className="xsm:w-20 xsm:h-20 md:w-24 md:h-24 lg:w-26 lg:h-26" />
           {/* Incluir enlaces de navegación aquí */}
         </div>
         
         {/* Links de navegación */}
-        <div>
-          <h4 className="font-bold text-lg mb-3">DevNest Studios Website:</h4>
+        <div className='flex flex-col xsm:px-14 lg:px-0'>
+          <h4 className="font-bold text-2xl mb-3">Directorio:</h4>
             <a href=""><p className='text-xl mb-2'>Inicio</p></a>
             <a href=""><p className='text-xl mb-2'>Servicios</p></a>
             <a href=""><p className='text-xl mb-2'>Tecnologías que usamos</p></a>
@@ -23,8 +23,8 @@ export const FooterComponent = () => {
         </div>
 
         {/* Servicios */}
-        <div>
-          <h4 className="font-bold text-lg mb-3">Servicios:</h4>
+        <div className='flex flex-col xsm:px-14 lg:px-0'>
+          <h4 className="font-bold text-2xl mb-3">Servicios:</h4>
             <a href=""><p className='text-xl mb-2'>Desarrollo Web</p></a>
             <a href=""><p className='text-xl mb-2'>Desarrollo Empresarial</p></a>
             <a href=""><p className='text-xl mb-2'>Desarrollo Movil</p></a>
@@ -35,8 +35,8 @@ export const FooterComponent = () => {
         </div>
 
         {/* Redes sociales */}
-        <div>
-          <h4 className="font-bold text-lg mb-3">Nuestras redes sociales:</h4>
+        <div className='flex flex-col xsm:px-14 lg:px-0'>
+          <h4 className="font-bold text-2xl mb-3">Nuestras redes sociales:</h4>
             <a className='flex items-center gap-3 mb-5' href="">
               <img className='w-8 h-8' src="/footer/githubLogo.svg" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>

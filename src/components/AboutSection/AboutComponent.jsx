@@ -12,7 +12,7 @@ export const AboutComponent = () => {
             {/*Banner Image*/}
             <img className="rounded-xl xsm:hidden md:block" src="/about/aboutUsBanner.svg" alt="Sobre Nosotros" />
 
-            <div className='flex items-center justify-center border-4 border-black bg-white md:w-[400px] xsm:w-[250px] p-2 px-3 md:rounded-[40px] xsm:rounded-[20px] translate-y-[-60%] gap-3 hover:shadow-2xl'>
+            <div className='flex items-center justify-center border-4 border-black bg-white md:w-[400px] xsm:w-full p-2 px-3 md:rounded-[40px] xsm:rounded-[20px] translate-y-[-60%] gap-3 hover:shadow-2xl'>
               <img className='md:w-24 md:h-24 xsm:w-14 xsm:h-14' src="/devNestStudiosLogo.svg" alt="Dev Nest Studios Logo" />
               <h2 className='md:text-3xl xsm:text-xl font-semibold'>Sobre nosotros</h2>
             </div>
