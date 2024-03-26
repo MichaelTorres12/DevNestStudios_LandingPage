@@ -115,6 +115,7 @@ export const ProjectsComponent = () => {
   };
 
   return (
+    <section id='Proyectos'>
     <>
       {/* SVG Wave en la parte superior */}
       <div className="bg-[#FAFAFA] top-0 left-0 w-full overflow-hidden h-[100px] #1251F4, #71a7ff">
@@ -166,5 +167,6 @@ export const ProjectsComponent = () => {
       </div>
     </div>
   </>
+  </section>
   );
 }

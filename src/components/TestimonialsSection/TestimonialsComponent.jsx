@@ -62,6 +62,7 @@ const testimonials = [
 
 const TestimonialCard = ({ testimonial }) => {
   return (
+    <section id='Testimonios'>
     <div className="bg-white p-6 rounded-3xl shadow-md m-4 hover:shadow-lg md:w-[350px] hover:cursor-grab">
       <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mx-auto " />
       <div className="text-center mt-4">
@@ -73,6 +74,7 @@ const TestimonialCard = ({ testimonial }) => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

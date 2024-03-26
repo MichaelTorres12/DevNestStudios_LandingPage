@@ -36,6 +36,7 @@ const teamMembers = [
 
 export const TeamComponent = () => {
   return (
+    <section id='Equipo'>
     <div className="bg-[#FAFAFA] md:py-10 xsm:pt-1 xsm:pb-10">
       <div className="container mx-auto px-6 text-center flex flex-col justify-center items-center pt-5 max-w-[1440px]">
       <div className='flex items-left justify-left text-left mb-5 '>
@@ -67,5 +68,6 @@ export const TeamComponent = () => {
         <ContactAndProjectsButtons/>
       </div>
     </div>
+    </section>
   );
 }

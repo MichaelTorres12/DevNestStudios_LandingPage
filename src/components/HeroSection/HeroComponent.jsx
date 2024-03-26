@@ -3,6 +3,7 @@ import { ContactAndProjectsButtons } from '../ButtonsReusables/ContactAndProject
 
 export const HeroComponent = () => {
   return (
+    <section id="Inicio">
     <div className="generalWrapper relative bg-[#EDEDED] pb-11 ">
       <div className="container mx-auto flex flex-col lg:flex-row items-center gap-16 max-w-[1440px] xl:pt-12 xsm:pt-16 ">
         {/* Contenido textual */}
@@ -42,5 +43,6 @@ export const HeroComponent = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 }

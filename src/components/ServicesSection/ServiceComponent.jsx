@@ -46,6 +46,7 @@ const services = [
 export const ServiceComponent = () => {
 
   return (
+    <section id='Servicios'>
     <div className="bg-[#FAFAFA] pb-10">
       <div className="container mx-auto py-10 lg:flex xsm:flex-none gap-12  max-w-[1460px]">
         <div className="text-left align-center justify-center flex flex-col xsm:justify-center xsm:items-center lg:items-baseline">
@@ -85,5 +86,6 @@ export const ServiceComponent = () => {
 
       <TecnologiasComponent/>
     </div>
+    </section>
   );
 }
