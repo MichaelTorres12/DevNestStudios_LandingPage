@@ -11,10 +11,10 @@ export const AboutComponent = () => {
           <div className=" flex flex-col items-center justify-center mb-[-30px]">
             
             {/*Banner Image*/}
-            <img className="rounded-xl xsm:hidden md:block" src="/about/aboutUsBanner.svg" alt="Sobre Nosotros" />
+            <img className="rounded-xl xsm:hidden md:block" src="/about/aboutUsBanner.webp" alt="Sobre Nosotros" loading="lazy" />
 
             <div className='flex items-center justify-center border-4 border-black bg-white md:w-[400px] xsm:w-full p-2 px-3 md:rounded-[40px] xsm:rounded-[20px] translate-y-[-60%] gap-3 hover:shadow-2xl'>
-              <img className='md:w-24 md:h-24 xsm:w-14 xsm:h-14' src="/devNestStudiosLogo.svg" alt="Dev Nest Studios Logo" />
+              <img className='md:w-24 md:h-24 xsm:w-14 xsm:h-14' src="/devNestStudiosLogo.webp" alt="Dev Nest Studios Logo" loading="lazy" />
               <h2 className='md:text-3xl xsm:text-xl font-semibold'>Sobre nosotros</h2>
             </div>
           </div>

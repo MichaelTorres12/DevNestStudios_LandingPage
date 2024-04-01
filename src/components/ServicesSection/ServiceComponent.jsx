@@ -8,37 +8,37 @@ const services = [
     id: 1,
     title: 'Desarrollo Web',
     description: 'Sitios web a medida, desde aplicaciones web hasta plataformas e-commerce, optimizadas para una experiencia de usuario excepcional.',
-    icon: '/services/webIconService.svg',
+    icon: '/services/webIconService.webp',
   },
   {
     id: 2,
     title: 'Apps Empresariales',
     description: 'Soluciones de software personalizadas para automatizar y optimizar procesos de negocio, mejorando eficiencia y productividad.',
-    icon: '/services/appsEmpresarialesIconServices.svg',
+    icon: '/services/appsEmpresarialesIconServices.webp',
   },
   {
     id: 3,
     title: 'APIs y Microservicios',
     description: 'Creamos APIs robustas y microservicios escalables que facilitan la integración y comunicación eficiente entre diferentes sistemas y aplicaciones.',
-    icon: '/services/apisIconService.svg',
+    icon: '/services/apisIconService.webp',
   },
   {
     id: 4,
     title: 'Diseño UI/UX',
     description: 'Diseñamos interfaces intuitivas y experiencias de usuario cautivadoras, asegurando que cada interacción sea memorable.',
-    icon: '/services/uiuxIconService.svg',
+    icon: '/services/uiuxIconService.webp',
   },
   {
     id: 5,
     title: 'Aplicaciones Móviles',
     description: 'Aplicaciones móviles innovadoras para iOS y Android, que conectan marcas con clientes en cualquier momento y lugar.',
-    icon: '/services/appMovileService.svg',
+    icon: '/services/appMovileService.webp',
   },
   {
     id: 6,
     title: 'Bases de Datos',
     description: 'Diseñamos y optimizamos bases de datos para garantizar almacenamiento, recuperación y manejo eficiente de datos para su negocio.',
-    icon: '/services/databaseIconService.svg',
+    icon: '/services/databaseIconService.webp',
   },
 ];
 
@@ -52,7 +52,7 @@ export const ServiceComponent = () => {
         <div className="text-left align-center justify-center flex flex-col xsm:justify-center xsm:items-center lg:items-baseline">
           <div className='flex items-center md:mb-10 xsm:mb-5 xsm:px-3 lg:px-0 '>
             <picture className='xsm:hidden md:block'>
-              <img src="/SectionsIndicatorIcon.svg" alt="Sections Indicator" />
+              <img src="/SectionsIndicatorIcon.svg" alt="Sections Indicator" loading="lazy"/>
             </picture>
             <p className='ml-2 md:text-2xl xsm:text-xl font-bold nuestros-servicios-color'>Nuestros servicios</p>
           </div>
@@ -75,7 +75,7 @@ export const ServiceComponent = () => {
           {services.map((service) => (
             <div key={service.id} className=".gradient-cards md:p-6 xsm:p-4 rounded-2xl shadow-md gradient-cards hover:drop-shadow-2xl hover:cursor-default">
               <div className="flex items-center justify-center h-16 w-16 mb-4 bg-white rounded-full drop-shadow-lg">
-                <img src={service.icon} alt={service.title} className="h-6 w-6" />
+                <img src={service.icon} alt={service.title} className="h-6 w-6" loading="lazy"/>
               </div>
               <h3 className="text-2xl mb-3 font-semibold">{service.title}</h3>
               <p>{service.description}</p>

@@ -14,42 +14,42 @@ const projects = [
     title: 'PaveEnergy',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/paveEnergyImage.svg',
+    image: '/projects/paveEnergyImage.webp',
   },
   {
     id: 2,
     title: 'LECA Industries',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', ],
-    image: '/projects/lecaIndustriesLandingPageImage.svg',
+    image: '/projects/lecaIndustriesLandingPageImage.webp',
   },
   {
     id: 3,
     title: 'Suivar Codes',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', 'Shopify'],
-    image: '/projects/suivarCodesImage.svg',
+    image: '/projects/suivarCodesImage.webp',
   },
   {
     id: 4,
     title: 'DevNest Studios',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/devNestStudiosLandingPageImage.svg',
+    image: '/projects/devNestStudiosLandingPageImage.webp',
   },
   {
     id: 5,
     title: 'Inventional AI',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', 'Shopify'],
-    image: '/projects/inventionalAiImage.svg',
+    image: '/projects/inventionalAiImage.webp',
   },
   {
     id: 6,
     title: 'Anuncio de Fiverr',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/anuncioImage.svg',
+    image: '/projects/anuncioImage.webp',
   },
 ];
 
@@ -57,7 +57,7 @@ const projects = [
 const ProjectCard = ({ project }) => {
   return (
     <div className="group relative p-4 bg-white rounded-lg shadow-lg lg:w-[430px] lg:h-[500px] xsm:w-full hover:cursor-grab transition duration-300 ease-in-out">
-      <img src={project.image} alt={project.title} className="rounded-lg mb-4" />
+      <img src={project.image} alt={project.title} className="rounded-lg mb-4" loading="lazy"/>
       <h3 className="text-3xl font-semibold mb-2">{project.title}</h3>
       <p className="text-gray-600 mb-4">{project.description}</p>
       <div className="flex flex-wrap gap-2">
@@ -70,7 +70,7 @@ const ProjectCard = ({ project }) => {
       {/* Botón que aparece al hacer hover */}
       <a href="/project-link" // Asegúrate de usar el enlace correcto aquí
          className="absolute bottom-4 right-0 px-4  rounded-lg opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out ">
-        <img className='w-16 h-16 ' src="/projects/buttonHoverProject.svg" alt="Button to see project" />
+        <img className='w-16 h-16 ' src="/projects/buttonHoverProject.webp" alt="Button to see project" loading="lazy"/>
       </a>
     </div>
   );

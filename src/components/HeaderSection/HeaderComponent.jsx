@@ -27,7 +27,7 @@ export const HeaderComponent = () => {
        <div className='xl:flex items-center justify-between px-5 container mx-auto flex  max-w-8xl mt-1 mb-1 max-w-[1440px]'>
         {/* logo section */}
         <div className='font-bold text-2xl cursor-pointer flex items-center gap-2'>
-            <img className='logoImg md:w-20 sm:h-20 xsm:w-16 xsm:h-16' src="/devNestStudiosLogo.svg" alt="DevNest Studios Logo" />
+            <img className='logoImg md:w-20 sm:h-20 xsm:w-16 xsm:h-16' src="/devNestStudiosLogo.webp" alt="DevNest Studios Logo" loading="lazy"/>
         </div>
         {/* Menu icon */}
         <div onClick={()=>setOpen(!open)} className='absolute right-8 cursor-pointer xl:hidden w-7 h-7 items-center justify-center text-white font-bold'>

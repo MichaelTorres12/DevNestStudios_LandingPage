@@ -26,7 +26,7 @@ export const TecnologiasComponent = () => {
 
                     <div>
                         <picture>
-                            <img className='w-[525px] md:h-[525px] xsm:h-[400px] md:mt-10 lg:mt-0' src="/techs/allTechsTogeterIcons.svg" alt="All Technologies we use" />
+                            <img className='w-[525px] md:h-[525px] xsm:h-[400px] md:mt-10 lg:mt-0' src="/techs/allTechsTogeterIcons.svg" alt="All Technologies we use" loading="lazy" />
                         </picture>
                   </div>
                 </div>        

@@ -6,31 +6,31 @@ const teamMembers = [
     id: 1,
     name: 'Michael Torres',
     role: 'Desarrollador de Software',
-    image: '/team/michaelPic.svg'
+    image: '/team/michaelPic.webp'
   },
   {
     id: 2,
     name: 'Giovanni Bukele',
     role: 'Desarrollador de Software',
-    image: '/team/giovanniPic.svg'
+    image: '/team/giovanniPic.webp'
   },
   {
     id: 3,
     name: 'Emilio Deras',
     role: 'Desarrollador de Software',
-    image: '/team/emilioPic.svg'
+    image: '/team/emilioPic.webp'
   },
   {
     id: 4,
     name: 'Emiliano Torres',
     role: 'Desarrollador de Software',
-    image: '/team/emilianoPic.svg'
+    image: '/team/emilianoPic.webp'
   },
   {
     id: 5,
     name: 'Jhonatan Zero',
     role: 'Desarrollador de Software',
-    image: '/team/jhonaPic.svg'
+    image: '/team/jhonaPic.webp'
   },
 ];
 
@@ -42,7 +42,7 @@ export const TeamComponent = () => {
       <div className='flex items-left justify-left text-left mb-5 '>
 
         <div className='flex '>
-          <img src="/team/ballsItem.svg" alt="ballsItem" />
+          <img src="/team/ballsItem.webp" alt="ballsItem" loading="lazy"/>
         </div>
           </div>
             <h2 className="lg:text-[50px] xsm:text-[30px] md:text-[40px] md:px-8 lg:px-0 text-blue-600 font-bold mb-3 md:w-[800px] xsm:w-full leading-very-tiny-interline">

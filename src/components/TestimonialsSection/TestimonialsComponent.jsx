@@ -14,49 +14,49 @@ const testimonials = [
     'name': 'Nayib Bukele',
     'quote': '"Muy buen trabajo la verdad, son demasiado profesionales"',
     'position': 'CEO of El Salvador',
-    'image': './testimonials/bukeleClientPic.svg',
+    'image': './testimonials/bukeleClientPic.webp',
   },
   {
     'id': '2',
     'name': 'Jennifer Lopez',
     'position': 'CEO of Music Records',
     'quote': '"La verdad mi carrera musical no fuese tan buena si nunca los hubiese conocido, los amo."',
-    'image': './testimonials/client02Pic.svg',
+    'image': './testimonials/client02Pic.webp',
   },
   {
     'id': '3',
     'name': 'Mario Oscar',
     'position': 'CEO of Super Selectos',
     'quote': '"Ellos hicieron el sistema de POS que ocupo en mi cadena de supermercado y vale la pena."',
-    'image': './testimonials/client03Pic.svg',
+    'image': './testimonials/client03Pic.webp',
   },
   {
     'id': '4',
     'name': 'Benito Martinez',
     'position': 'CEO of Bad Bunny',
     'quote': 'Muy buen trabajo la verdad, son demasiado profesionales',
-    'image': './testimonials/client04Pic.svg',
+    'image': './testimonials/client04Pic.webp',
   },
   {
     'id': '5',
     'name': 'Nayib Bukele',
     'position': 'CEO of El Salvador',
     'quote': 'Muy buen trabajo la verdad, son demasiado profesionales',
-    'image': './testimonials/client05Pic.svg',
+    'image': './testimonials/client05Pic.webp',
   },
   {
     'id': '6',
     'name': 'Luis Miguel',
     'position': 'CEO of El Sol de Mexico',
     'quote': '"Si tan solo tu me hubieras dicho la verdad... Si tan solo me hubieses amado de verdad"',
-    'image': './testimonials/client06Pic.svg',
+    'image': './testimonials/client06Pic.webp',
   },
   {
     'id': '7',
     'name': 'Kanye West',
     'position': 'CEO of YeezY',
     'quote': '"Kim, dejame ver a los niños, creeme que ya deje el alcohol y estoy sacando puro temazo!!"',
-    'image': './testimonials/client07Pic.svg',
+    'image': './testimonials/client07Pic.webp',
   },
 ];
 
@@ -64,7 +64,7 @@ const TestimonialCard = ({ testimonial }) => {
   return (
     <section id='Testimonios'>
     <div className="bg-white p-6 rounded-3xl shadow-md m-4 hover:shadow-lg md:w-[350px] hover:cursor-grab">
-      <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mx-auto " />
+      <img src={testimonial.image} alt={testimonial.name} className="w-24 h-24 rounded-full mx-auto" loading="lazy"/>
       <div className="text-center mt-4">
         <p className="font-extrabold text-2xl">{testimonial.name}</p>
         <p className="font-bold text-gray-400">{testimonial.position}</p>

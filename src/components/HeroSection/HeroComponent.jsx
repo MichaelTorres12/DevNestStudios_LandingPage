@@ -13,7 +13,7 @@ export const HeroComponent = () => {
                 <h2 className='animated-gradient-text-HeroSection xl:text-[105px] lg:text-[97px] md:text-[90px] sm:text-[80px] xsm:text-[55px]  md:text-4 text-center lg:text-left mb font-bold '>Desarrollo</h2>.
                 <picture>
                   <img className=' 
-                  xl:w-28 lg:w-28 md:w-28 md:ml-10 sm:w-20 xsm:w-12 xsm:ml-1' src="/hero/earth.svg" alt="mundiMap" />
+                  xl:w-28 lg:w-28 md:w-28 md:ml-10 sm:w-20 xsm:w-12 xsm:ml-1' src="/hero/earth.webp" alt="mundiMap" loading="lazy" />
                 </picture>
               </div>
               <h2 className="animated-gradient-text-HeroSection xl:text-[105px] lg:text-[97px] md:text-[90px] sm:text-[80px] xsm:text-[55px] leading-extra-loose md:text-4 md:leading-extra-loose xsm:text-center lg:text-left lg:mb-6 xsm:mb-3 font-bold  ">
@@ -37,8 +37,9 @@ export const HeroComponent = () => {
         <div className="lg:pt-10 xsm:pt-0 w-full">
           <img 
             className="heroServicesImg"
-            src="/hero/heroImage.svg" 
+            src="/hero/heroImage.webp" 
             alt="Hero Section Image"
+            loading="lazy"
           />
         </div>
       </div>

@@ -6,7 +6,7 @@ export const FooterComponent = () => {
       <div className="container mx-auto px-4 grid lg:grid-cols-4 md:grid-cols-2 xsm:grid-cols-1  xsm:gap-8 md:gap-6 max-w-[1440px]">
         {/* Logo y navegación */}
         <div className='flex items-center justify-center'>
-          <img src="/devNestStudiosLogo.svg" alt="DevNest" className="xsm:w-20 xsm:h-20 md:w-24 md:h-24 lg:w-26 lg:h-26" />
+          <img src="/devNestStudiosLogo.webp" alt="DevNest" className="xsm:w-20 xsm:h-20 md:w-24 md:h-24 lg:w-26 lg:h-26" loading="lazy"/>
           {/* Incluir enlaces de navegación aquí */}
         </div>
         
@@ -38,19 +38,19 @@ export const FooterComponent = () => {
         <div className='flex flex-col xsm:px-14 lg:px-0'>
           <h4 className="font-bold text-2xl mb-3">Nuestras redes sociales:</h4>
             <a className='flex items-center gap-3 mb-5' href="">
-              <img className='w-8 h-8' src="/footer/githubLogo.svg" alt="GitHub Logo" />
+              <img className='w-8 h-8' src="/footer/githubLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>
             </a>
             <a className='flex items-center gap-3 mb-5' href="">
-              <img className='w-8 h-8' src="/footer/instagramLogo.svg" alt="GitHub Logo" />
+              <img className='w-8 h-8' src="/footer/instagramLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>
             </a>
             <a className='flex items-center gap-3 mb-5' href="">
-              <img className='w-8 h-8' src="/footer/facebookLogo.svg" alt="GitHub Logo" />
+              <img className='w-8 h-8' src="/footer/facebookLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>
             </a>
             <a className='flex items-center gap-3 mb-5' href="">
-              <img className='w-8 h-8' src="/footer/whatsappLogo.svg" alt="GitHub Logo" />
+              <img className='w-8 h-8' src="/footer/whatsappLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>+503 7140-3076</p>
             </a>
             
