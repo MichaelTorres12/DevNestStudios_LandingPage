@@ -18,3 +18,11 @@
     color: transparent;
     animation: gradient-animation 2s ease infinite;
   }
+
+  .gradient-text {
+    background-image: linear-gradient(to right, #1251F4, #71a7ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent; /* Solo es necesario si quieres soporte para Firefox */
+}
