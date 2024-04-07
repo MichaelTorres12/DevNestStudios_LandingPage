@@ -10,7 +10,7 @@ const teamMembers = [
   },
   {
     id: 2,
-    name: 'Giovanni Bukele',
+    name: 'Kevin Flores',
     role: 'Desarrollador de Software',
     image: '/team/giovanniPic.webp'
   },
@@ -28,7 +28,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: 'Jhonatan Zero',
+    name: 'Jonathan Martinez',
     role: 'Desarrollador de Software',
     image: '/team/jhonaPic.webp'
   },
