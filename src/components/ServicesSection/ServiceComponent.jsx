@@ -62,7 +62,7 @@ export const ServiceComponent = () => {
             <strong className='md:text-[75px] xsm:text-[50px] gradient-text'>Soluciones innovadoras,</strong> para cada desafío digital
           </h2>
           <p className="text-xl lg:text-left xsm:text-center lg:mb-20 xsm:mb-7 md:leading-tiny-lineHeight xsm:px-3 lg:px-0">
-            En DevNet Studios, transformamos ideas en realidades digitales. Con un enfoque personalizado
+            En DevNest Studios, transformamos ideas en realidades digitales. Con un enfoque personalizado
             y tecnología de punta, impulsamos tu éxito en el dinámico mundo digital.
           </p>
 

@@ -17,7 +17,7 @@ export const TecnologiasComponent = () => {
                     <div className='lg:w-[950px] xsm:w-full'>
                         <p className="mb-3 md:text-[50px] xsm:text-[40px] font-bold lg:w-[600px] xsm:hidden md:block">Innovación, Eficiencias y Seguridad</p>
                         <p className=" text-xl lg:text-left xsm:text-center lg:mb-16 xsm:mb-0 md:leading-tiny-lineHeight">
-                        En DevNet Studios, nos enorgullecemos de utilizar un amplio abanico de tecnologías de vanguardia para llevar tus proyectos al siguiente nivel. Desde lenguajes de programación modernos hasta frameworks líderes y herramientas de desarrollo de última generación, nos equipamos con lo mejor para asegurar soluciones eficientes, seguras y totalmente personalizadas. Nuestra pasión por la tecnología nos impulsa a estar siempre actualizados, garantizando que tu proyecto no solo cumpla, sino exceda las expectativas.
+                        En DevNest Studios, nos enorgullecemos de utilizar un amplio abanico de tecnologías de vanguardia para llevar tus proyectos al siguiente nivel. Desde lenguajes de programación modernos hasta frameworks líderes y herramientas de desarrollo de última generación, nos equipamos con lo mejor para asegurar soluciones eficientes, seguras y totalmente personalizadas. Nuestra pasión por la tecnología nos impulsa a estar siempre actualizados, garantizando que tu proyecto no solo cumpla, sino exceda las expectativas.
                         </p>
                         <div className="flex flex-wrap gap-4 xsm:hidden lg:block">
                         <ContactAndProjectsButtons/>

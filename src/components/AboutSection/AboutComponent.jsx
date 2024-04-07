@@ -24,7 +24,7 @@ export const AboutComponent = () => {
             {/*Left Side Info*/}
             <div className='leftSideText lg:text-left xsm:text-center'>
               <h2 className="text-black md:text-[55px] xsm:text-[40px] font-bold md:mb-10 xsm:mb-5 lg:w-[550px] xsm:w-full mr-20 leading-very-tiny-interline">
-                <strong className='md:text-[55px] xsm:text-[40px] animated-gradient-text'>DevNet Studios:</strong> Innovación y Experiencia al Servicio de Tus Ideas
+                <strong className='md:text-[55px] xsm:text-[40px] animated-gradient-text'>DevNest Studios:</strong> Innovación y Experiencia al Servicio de Tus Ideas
               </h2>
               <div className="flex flex-wrap gap-4 xsm:hidden lg:block">
                 <ContactAndProjectsButtons/>
@@ -34,7 +34,7 @@ export const AboutComponent = () => {
             {/*Right Side Info*/}
             <div className='flex flex-col justify-center '>
               <p className="text-xl lg:text-left xsm:text-center mb-5 md:leading-tiny-lineHeight">
-                Desde El Salvador para el mundo, en DevNet Studios fusionamos la pasión por la tecnología con el talento nacional para ofrecer soluciones digitales que trascienden fronteras. Nuestro equipo, compuesto por talentos locales con una visión global, dedicados a transformar ideas en soluciones tecnológicas de alto impacto y con ganas de solucionar problemas complejos.
+                Desde El Salvador para el mundo, en DevNest Studios fusionamos la pasión por la tecnología con el talento nacional para ofrecer soluciones digitales que trascienden fronteras. Nuestro equipo, compuesto por talentos locales con una visión global, dedicados a transformar ideas en soluciones tecnológicas de alto impacto y con ganas de solucionar problemas complejos.
               </p>
               <p className="text-xl lg:text-left xsm:text-center  md:leading-tiny-lineHeight xsm:hidden md:block">
                 Con experiencia en una amplia gama de servicios digitales, nos especializamos en llevar a cabo proyectos que no solo cumplen, sino que superan las expectativas de nuestros clientes, tanto nacionales como internacionales. Creemos firmemente que la innovación, la calidad y la cercanía con nuestros clientes son los pilares que nos permiten construir relaciones de confianza y proyectos exitosos.

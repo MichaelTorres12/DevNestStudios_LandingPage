@@ -19,6 +19,7 @@ export const HeaderComponent = () => {
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setOpen(false); // Agrega esta línea para cerrar el menú
     }
   };
 
@@ -36,7 +37,7 @@ export const HeaderComponent = () => {
             }
         </div>
         {/* linke items */}
-        <ul className={` xl:flex xl:items-center xl:pb-0 pb-12 absolute xl:static bg-[#1e3a8a]  xl:z-auto z-[-1] left-0 w-full xl:w-auto xl:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-[70px]' : 'top-[-490px]'}`}>
+        <ul className={` xl:flex xl:items-center xl:pb-0 pb-12 absolute xl:static bg-[#1e3a8a]  xl:z-auto z-[-1] left-0 w-full xl:w-auto xl:pl-0 pl-9 transition-all duration-300 ease-in ${open ? 'top-[70px]' : 'top-[-490px]'}`}>
                 {
                   Links.map((link) => (
                     // eslint-disable-next-line react/jsx-key
@@ -46,7 +47,7 @@ export const HeaderComponent = () => {
                       </button>
                     </li>))
                 }
-                <button className='btn text-2xl font-semibold bg-[#1658F4] text-white px-4 py-2 rounded-3xl  hover:bg-[#ffff00] hover:text-black hover:shadow-xl hover:gray-500/100 duration-300 '>Contáctanos</button>
+                <button onClick={() => scrollToSection('ContactUs')} className='btn text-2xl font-semibold bg-[#1658F4] text-white px-4 py-2 rounded-3xl hover:bg-[#ffff00] hover:text-black hover:shadow-xl hover:gray-500/100 duration-300'>Contáctanos</button>
             </ul>
       {/* button */}
       </div>
