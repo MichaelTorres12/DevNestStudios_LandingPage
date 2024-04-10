@@ -11,6 +11,9 @@ import { TestimonialsComponent } from './components/TestimonialsSection/Testimon
 import { ContactComponent } from './components/ContactSection/ContactComponent';
 import { FooterComponent } from './components/FooterSection/FooterComponent';
 
+//Para llevar analytics desde Vercel Dashboard
+import { Analytics } from "@vercel/analytics/react"
+
 //Para hacer que mi carrusel funcione
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -31,6 +34,8 @@ function App() {
       <TestimonialsComponent/>
       <ContactComponent/>
       <FooterComponent/>
+
+      <Analytics />
       
     </div>
   )

@@ -28,7 +28,7 @@ const teamMembers = [
   },
   {
     id: 5,
-    name: 'Jonathan Martinez',
+    name: 'Isaac Martinez',
     role: 'Desarrollador de Software',
     image: '/team/jhonaPic.webp'
   },
