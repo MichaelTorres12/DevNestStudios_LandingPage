@@ -11,10 +11,10 @@ import { ContactAndProjectsButtons } from '../ButtonsReusables/ContactAndProject
 const projects = [
   {
     id: 1,
-    title: 'PaveEnergy',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
-    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/paveEnergyImage.webp',
+    title: 'METABIO Tech',
+    description: 'Empresa colombiana dedicada a fabricar sistemas que evaluan la presión de infección ambiental, colaboramos con el diseño de la interfáz gráfica y la elaboración de su landing page con React.JS',
+    tags: ['UI/UX', 'Figma', 'Frontend', 'React', ],
+    image: '/projects/metaBioTechProject.webp',
   },
   {
     id: 2,
@@ -26,30 +26,30 @@ const projects = [
   {
     id: 3,
     title: 'Suivar Codes',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
-    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', 'Shopify'],
+    description: 'Elaboramos el sitio web completo de esta empresa Salvadoreña dedica a proveer servicios de diseño gráfico y programación de sitio No-Code',
+    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', 'Angular'],
     image: '/projects/suivarCodesImage.webp',
   },
   {
     id: 4,
-    title: 'DevNest Studios',
+    title: 'Juegos Deportivos Chilenos',
     description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
-    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/devNestStudiosLandingPageImage.webp',
+    tags: ['Frontend', 'Backend', 'Flutter', 'App Movil', 'Product Design', 'MongoDB'],
+    image: '/projects/JDEProject.webp',
   },
   {
     id: 5,
     title: 'Inventional AI',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
-    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', 'Shopify'],
+    description: 'Desarrollamos el diseño y codificación de la Landing Page de InventionalAI, una start-up de bélgica dedicada a Chatbots con IA',
+    tags: ['Frontend', 'Backend', 'UI/UX', 'React.Js', 'Figma'],
     image: '/projects/inventionalAiImage.webp',
   },
   {
     id: 6,
-    title: 'Anuncio de Fiverr',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
-    tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design'],
-    image: '/projects/anuncioImage.webp',
+    title: 'PaveEnergy',
+    description: 'Landing page de PaveEnergy, empresa dedica a la generación de energía renovable usando el tráfico vehicular, trabajamos desde el diseño hasta el deployment',
+    tags: ['Frontend', 'ReactJS', 'UI/UX', 'Product Design', 'Figma'],
+    image: '/projects/paveEnergyImage.webp',
   },
 ];
 

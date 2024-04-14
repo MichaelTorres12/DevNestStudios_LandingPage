@@ -3,11 +3,11 @@ import'./logosSlider.css';
 
 
 const logos = [
-    "/testimonials/brands/3m.webp",
-    "/testimonials/brands/budweiser.webp",
-    "/testimonials/brands/forbes.webp",
-    "/testimonials/brands/mrbeast.webp",
-    "/testimonials/brands/buzzfeed.webp",
+    "/testimonials/brands/metaBixLogo.svg",
+    "/testimonials/brands/lecaLogo.webp",
+    "/testimonials/brands/transbankLogo.webp",
+    "/testimonials/brands/paveEnergyLogo.webp",
+    "/testimonials/brands/suivarCodesLogo.svg",
 
   ];
 

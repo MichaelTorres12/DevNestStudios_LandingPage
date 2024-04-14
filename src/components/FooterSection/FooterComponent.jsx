@@ -37,19 +37,19 @@ export const FooterComponent = () => {
         {/* Redes sociales */}
         <div className='flex flex-col xsm:px-14 lg:px-0'>
           <h4 className="font-bold text-2xl mb-3">Nuestras redes sociales:</h4>
-            <a className='flex items-center gap-3 mb-5' href="">
-              <img className='w-8 h-8' src="/footer/githubLogo.webp" alt="GitHub Logo" />
-              <p className='text-xl'>@DevNestStudios</p>
-            </a>
-            <a className='flex items-center gap-3 mb-5' href="">
+          <a className='flex items-center gap-3 mb-5' href="https://www.instagram.com/devnest_studios/" target="_blank">
               <img className='w-8 h-8' src="/footer/instagramLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>
             </a>
-            <a className='flex items-center gap-3 mb-5' href="">
+            <a className='flex items-center gap-3 mb-5' href="https://github.com/MichaelTorres12" target="_blank">
+              <img className='w-8 h-8' src="/footer/githubLogo.webp" alt="GitHub Logo" />
+              <p className='text-xl'>@DevNestStudios</p>
+            </a>
+            <a className='flex items-center gap-3 mb-5' href="" target="_blank">
               <img className='w-8 h-8' src="/footer/facebookLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>@DevNestStudios</p>
             </a>
-            <a className='flex items-center gap-3 mb-5' href="">
+            <a className='flex items-center gap-3 mb-5' href="" target="_blank">
               <img className='w-8 h-8' src="/footer/whatsappLogo.webp" alt="GitHub Logo" />
               <p className='text-xl'>+503 7140-3076</p>
             </a>
