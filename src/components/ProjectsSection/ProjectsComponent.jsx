@@ -18,8 +18,8 @@ const projects = [
   },
   {
     id: 2,
-    title: 'LECA Industries',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
+    title: 'LECA Indumentaria',
+    description: 'Empresa Argentina dedicada a la manofactura de ropa al por mayor, elaboramos el diseño de interfaz y experiencia de usuario de su Landing Page',
     tags: ['Frontend', 'Backend', 'UI/UX', 'Product Design', ],
     image: '/projects/lecaIndustriesLandingPageImage.webp',
   },
@@ -33,7 +33,7 @@ const projects = [
   {
     id: 4,
     title: 'Juegos Deportivos Chilenos',
-    description: 'Landing page del sitio oficial de Coocking Site, elaboramos todo el diseño del producto completo.',
+    description: 'Desarrollamos la App Movil de los Juegos Deportivos Escolares de Chile, encargados desde el planteamiendo del flujo de datos hasta el desarrollo de la App Movil Multiplataforma',
     tags: ['Frontend', 'Backend', 'Flutter', 'App Movil', 'Product Design', 'MongoDB'],
     image: '/projects/JDEProject.webp',
   },
